@@ -8,6 +8,7 @@ use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CurhatanController;
+use App\Http\Controllers\JadwalPerkuliahanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,3 +55,4 @@ Route::resource('/contact-us', ContactUsController::class)->only(["index"]);
 Route::get('/dashboard', [HomeController::class, 'index'])->name('home');
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::get('/curhat', [CurhatanController::class, 'index'])->name('curhat');
+Route::get('/jadwalperkuliahan', [JadwalPerkuliahanController::class, 'index'])->name('jadwalperkuliahan');

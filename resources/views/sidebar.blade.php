@@ -59,4 +59,12 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="/jadwalperkuliahan" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Jadwal Perkuliahan
+              </p>
+            </a>
+          </li>
   </aside>
